@@ -1,0 +1,192 @@
+.modalFirst {
+  width: 100% !important;
+  height: 90vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.modalContent {
+  min-height: calc(95% - 3rem) !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: rgb(245, 245, 245) !important;
+}
+
+.modalHeader {
+  display: flex !important;
+  justify-content: space-between !important;
+  background-color: var(--navy700) !important ;
+  color: white !important ;
+  padding: 0 !important;
+}
+
+.modalFooter {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  color: var(--blue500) !important ;
+  height: 3.5rem !important;
+}
+
+.container {
+  display: flex !important;
+  width: 100% !important;
+}
+
+.form {
+  width: 100% !important;
+  margin-top: 1rem !important;
+  background-color: rgb(245, 245, 245);
+}
+
+.customLabel {
+  margin: 0.3rem;
+  font-weight: 600;
+}
+
+.textArea {
+  padding: 0.4rem !important;
+  min-height: 2.2rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.positiveButton {
+  margin: 0 1.5rem 0 0 !important;
+  padding: 0.65rem 0.4rem !important;
+  min-width: 10rem !important;
+  color: #ffffff !important;
+  background-color: #ffffff !important;
+  color: rgb(5, 120, 165) !important;
+  border: 1px solid rgb(5, 120, 165) !important;
+}
+.positiveButton:hover {
+  background-color: rgb(5, 120, 165) !important;
+  color: #ffffff !important;
+}
+.negativeButton {
+  margin: 0 1.5rem 0 0 !important;
+  padding: 0.65rem 0.4rem !important;
+  min-width: 10rem !important;
+  color: #e90d0d !important;
+  border: 1px solid #e90d0d !important;
+  background-color: #ffffff !important;
+}
+
+.negativeButton:hover {
+  background-color: #f4f4f4 !important;
+}
+
+.divider {
+  margin-top: 2rem !important;
+}
+
+.captureContainer {
+  display: flex;
+  width: 25rem;
+  position: sticky !important;
+  margin-bottom: -30px;
+}
+.spanError {
+  display: flex !important;
+  /* 	align-items: flex-end !important; */
+  white-space: nowrap;
+  padding-left: 0.5rem;
+  font-weight: 600;
+  color: red;
+  width: 0.1rem;
+  font-size: 1.2rem;
+}
+.spanValid {
+  display: flex !important;
+  /* 	align-items: flex-end !important; */
+  white-space: nowrap;
+  padding-left: 0.5rem;
+  font-weight: 600;
+  color: var(--green500);
+  width: 0.1rem;
+  font-size: 1.2rem;
+}
+
+.renderCheckIcon {
+  margin-bottom: 0.3rem !important;
+  margin-right: 0.3rem !important;
+}
+
+.labelContainer {
+  width: 20rem;
+}
+
+.dateLabel {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--blue700);
+}
+
+.printButton {
+  margin-left: 4rem !important;
+}
+.textBox {
+  margin-top: 5px !important ;
+  margin-bottom: 5px !important;
+  font-weight: 600 !important;
+}
+
+.textBoxColor {
+  margin-top: 5px !important ;
+  margin-bottom: 5px !important;
+  font-weight: 600 !important;
+  color: #a44644 !important;
+}
+
+.inputDropdown::placeholder {
+  color: blue !important;
+  background-color: red !important;
+  font-size: 2.5em !important;
+}
+
+.messageErrorTextBox {
+  border: 1px solid #e0b4b4 !important;
+
+  color: #9f3a38 !important;
+  background-color: #fff !important;
+}
+.messageError {
+  border: 1px solid #e0b4b4 !important;
+
+  color: #9f3a38 !important;
+  background-color: #fff !important;
+}
+
+.input {
+  max-width: 48%;
+}
+.required {
+  color: #cf2929;
+  font-size: 17px;
+
+  font-weight: 700;
+}
+
+.rowInputContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postalCodeInput {
+  width: 45% !important;
+  margin-left: 15px !important;
+}
+
+.infoBanner {
+  text-align: center;
+  color: #ffffff !important;
+  background-color: rgb(35, 91, 181) !important;
+  padding: 0.3rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .modalContent {
+    min-height: calc(98% - 8rem) !important;
+  }
+}

@@ -1,0 +1,40 @@
+.header {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.actions {
+  padding: 1rem !important;
+}
+
+.positiveButton {
+  margin: 0 1.5rem 0 0 !important;
+  padding: 0.65rem 0.4rem !important;
+  min-width: 8rem !important;
+  color: #ffffff !important;
+  background-color: rgb(5, 120, 165) !important;
+}
+.positiveButton:hover {
+  background-color: rgb(5, 120, 165) !important;
+}
+.negativeButton {
+  margin: 0 1.5rem 0 0 !important;
+  padding: 0.65rem 0.4rem !important;
+  min-width: 8rem !important;
+  color: #ffffff !important;
+  background-color: rgb(206, 31, 40) !important;
+}
+
+.negativeButton:hover {
+  background-color: #f4f4f4 !important;
+}
+
+.content {
+  font-size: 1.1rem !important;
+  white-space: pre-wrap;
+}
+
+.focus {
+  font-weight: 700 !important;
+  margin-left: 0.25rem !important;
+}

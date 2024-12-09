@@ -1,0 +1,58 @@
+.input {
+	width: 100% !important;
+}
+
+.clearIcon {
+	border-top: 1px solid var(--inputShader) !important;
+	border-bottom: 1px solid var(--inputShader) !important;
+	background-color: var(--white) !important;
+}
+
+.clearIconFocused {
+	border-top: 1px solid var(--inputFocus) !important;
+	border-bottom: 1px solid var(--inputFocus) !important;
+	background-color: var(--white) !important;
+}
+
+.clearIconLast {
+	border-top: 1px solid var(--inputShader) !important;
+	border-bottom: 1px solid var(--inputShader) !important;
+	border-right: 1px solid var(--inputShader) !important;
+	background-color: var(--white) !important;
+}
+
+.clearIconLastFocused {
+	border-top: 1px solid var(--inputFocus) !important;
+	border-bottom: 1px solid var(--inputFocus) !important;
+	border-right: 1px solid var(--inputFocus) !important;
+	background-color: var(--white) !important;
+}
+
+.clearRoundedIconLast {
+	border-top: 1px solid var(--inputShader) !important;
+	border-bottom: 1px solid var(--inputShader) !important;
+	border-right: 1px solid var(--inputShader) !important;
+	border-top-right-radius: 1rem !important;
+	border-bottom-right-radius: 1rem !important;
+	background-color: var(--white) !important;
+}
+
+.clearRoundedIconLastFocused {
+	border-top: 1px solid var(--inputFocus) !important;
+	border-bottom: 1px solid var(--inputFocus) !important;
+	border-right: 1px solid var(--inputFocus) !important;
+	border-top-right-radius: 1rem !important;
+	border-bottom-right-radius: 1rem !important;
+	background-color: var(--white) !important;
+}
+
+.input div[role="listbox"] {
+	min-width: 0px !important;
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+	/*   background-color: var(--gray150) !important; */
+	background-color: hsl(0, 0%, 95%) !important;
+	color: hsl(215, 75%, 30%) !important;
+	border: 0.1rem solid hsl(215, 75%, 30%) !important;
+	font-weight: bold !important;
+}

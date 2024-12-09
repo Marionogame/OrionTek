@@ -1,0 +1,379 @@
+.modalFirst {
+  width: 75% !important;
+}
+.modalContent {
+  width: 100% !important;
+  background-color: #e7ecf2 !important;
+  padding: 0 1rem !important;
+}
+
+.subContainer {
+  background-color: white;
+  padding: 1rem !important;
+  margin-bottom: 0.5rem;
+  width: 100% !important;
+  border-radius: 0.5rem !important;
+}
+.containerButtom {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.dropdownContainer {
+  display: flex !important;
+  width: 100% !important;
+}
+.smallBtnAdd {
+  margin-left: 0.3rem !important;
+  white-space: nowrap !important;
+  background-color: hsl(0, 0%, 95%) !important;
+  color: hsl(215, 75%, 30%) !important;
+  border: 0.1rem solid hsl(215, 75%, 30%) !important;
+  /* 	padding: 0.3.3rem 0.4rem !important; */
+  margin: 0 0 0 0.5rem !important;
+  height: 2rem !important;
+}
+
+.modalHeader {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  color: hsl(215, 75%, 30%) !important ;
+  background-color: var(--navy700) !important ;
+  height: 3.5rem !important;
+}
+
+.headerIcon {
+  margin-bottom: 0.5rem !important;
+}
+
+.container {
+  width: 100% !important;
+  height: 100%;
+  overflow-y: auto;
+  margin: 0 !important;
+}
+.columns {
+  margin: 0 !important;
+  padding: 0 !important;
+  padding: 5px !important;
+}
+
+.positiveButton {
+  margin: 0 1.5rem 0 0 !important;
+  padding: 0.65rem 0.4rem !important;
+  min-width: 10rem !important;
+  color: #ffffff !important;
+  background-color: rgb(5, 120, 165) !important;
+}
+.positiveButton:hover {
+  background-color: rgb(5, 120, 165) !important;
+}
+.negativeButton {
+  margin: 0 1.5rem 0 0 !important;
+  padding: 0.65rem 0.4rem !important;
+  min-width: 10rem !important;
+  color: #ffffff !important;
+  background-color: rgb(206, 31, 40) !important;
+}
+
+.divider {
+  margin-top: 2rem !important;
+}
+
+.captureContainer {
+  display: flex;
+  width: 25rem;
+  position: sticky !important;
+  margin-bottom: -30px;
+}
+.spanError {
+  display: flex !important;
+  align-items: flex-end !important;
+  white-space: nowrap;
+  padding-left: 0.5rem;
+  font-weight: 600;
+  color: red;
+  width: 0.1rem;
+  font-size: 1.2rem;
+}
+.spanValid {
+  display: flex !important;
+  align-items: flex-end !important;
+  white-space: nowrap;
+  padding-left: 0.5rem;
+  font-weight: 600;
+  color: var(--green500);
+  width: 0.1rem;
+  font-size: 1.2rem;
+}
+.spanWarnin {
+  display: flex !important;
+  align-items: flex-end !important;
+  white-space: nowrap;
+  padding-left: 0.5rem;
+  font-weight: 600;
+  color: var(--yellow600);
+  width: 0.1rem;
+  font-size: 1.2rem;
+}
+
+.renderCheckIcon {
+  margin-bottom: 0.3rem !important;
+  margin-right: 0.3rem !important;
+}
+
+.labelContainer {
+  width: 20rem;
+}
+
+.dateLabel {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--blue700);
+}
+
+.printButton {
+  margin-left: 4rem !important;
+}
+.textBox {
+  margin-top: 10px !important ;
+  margin-bottom: 5px !important;
+  font-weight: 600 !important;
+}
+.coordsContainer {
+  width: 36rem;
+}
+
+.textBoxColor {
+  margin-top: 5px !important ;
+  margin-bottom: 5px !important;
+  font-weight: 600 !important;
+  color: #a44644 !important;
+}
+.refContainer {
+  margin-top: 2rem;
+}
+
+.inputDropdown::placeholder {
+  color: blue !important;
+  background-color: red !important;
+  font-size: 2.5em !important;
+}
+
+.messageErrorTextBox {
+  border: 1px solid #e0b4b4 !important;
+
+  color: #9f3a38 !important;
+  background-color: #fff !important;
+}
+.messageError {
+  border: 1px solid #e0b4b4 !important;
+
+  color: #9f3a38 !important;
+  background-color: #fff !important;
+}
+
+.required {
+  color: #cf2929;
+  font-size: 17px;
+
+  font-weight: 700;
+}
+
+.cont {
+  display: flex;
+  width: 100%;
+}
+.cont2 {
+  padding-left: 2rem;
+}
+.CordenadasContainer {
+  display: flex;
+  width: 100%;
+}
+
+.addressCustomInput {
+  display: flex;
+}
+
+.sizebutton {
+  background-color: #1959b3 !important;
+  color: #ffffff !important;
+  margin-left: 0.2rem !important;
+  padding: 9px 12px !important;
+  max-height: 2.2rem;
+}
+.sizebutton:hover {
+  background-color: #2159a7 !important;
+}
+
+.sectorInputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.sectorFilterButton {
+  background-color: #1959b3 !important;
+  color: #ffffff !important;
+  margin-left: 0.2rem !important;
+  margin-top: 0.5rem !important;
+  padding: 9px 12px !important;
+  max-height: 2.2rem;
+}
+.sectorFilterClear {
+  background-color: #b31919 !important;
+  color: #ffffff !important;
+  margin-left: 0.2rem !important;
+  margin-top: 0.5rem !important;
+  padding: 9px 12px !important;
+  max-height: 2.2rem;
+}
+
+.requiredLabel {
+  color: red;
+}
+
+.textArea {
+  width: 100%;
+}
+
+.textAreaAddress {
+  padding: 0.5rem !important;
+}
+
+.titleBox {
+  font-weight: 700 !important;
+  color: var(--blue700) !important;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+  font-size: 1.2rem !important;
+}
+
+.formInput {
+  margin: 0 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.qrContainer {
+  display: flex !important;
+  justify-content: center !important;
+  width: "100%" !important;
+}
+
+.qrCode {
+  height: "auto" !important;
+  max-width: "100%" !important;
+  width: "100%" !important;
+}
+
+.firstfieldset {
+  border-radius: 5px !important;
+  display: block !important;
+  width: 100% !important;
+  border: 1px solid #d1d1d1 !important;
+  padding: 5px 8px !important;
+  margin-top: 10px !important;
+  color: #184788 !important;
+  background-color: white !important;
+}
+
+.firstfieldsetBasicInfo1 {
+  border-radius: 5px !important;
+  display: block !important;
+  width: 100% !important;
+  max-height: calc(90vh - 8rem) !important;
+  min-height: calc(90vh - 8rem) !important;
+  border: 1px solid #d1d1d1 !important;
+  padding: 5px 8px !important;
+  margin-top: 10px !important;
+  color: #184788 !important;
+  background-color: white !important;
+  overflow-y: auto;
+}
+
+.firstfieldsetBasicInfo2 {
+  border-radius: 5px !important;
+  display: block !important;
+  width: 100% !important;
+  max-height: calc(90vh - 8rem) !important;
+  min-height: calc(90vh - 8rem) !important;
+  border: 1px solid #d1d1d1 !important;
+  padding: 5px 8px !important;
+  margin-top: 10px !important;
+  color: #184788 !important;
+  background-color: white !important;
+  overflow-y: auto;
+}
+
+.flexWidth {
+  display: flex;
+}
+.legend {
+  font-weight: 700 !important;
+  color: var(--blue500) !important;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+  font-size: 1.1rem;
+}
+
+.icon {
+  color: #184788 !important;
+}
+.titleBox {
+  font-weight: 700 !important;
+  color: var(--blue700) !important;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+  font-size: 1.1rem;
+  margin-left: 10px;
+}
+.userInputContainer {
+  display: flex;
+  align-items: flex-end !important;
+}
+.smallBtn {
+  padding: 1px !important;
+}
+
+.modalButtonEdit {
+  background-color: #ffffff !important;
+  padding: 0.5rem 0.5rem !important;
+  margin: 0.1rem 0.1rem !important;
+  color: #3f7ea3 !important;
+  border: 1px solid #3f7ea3 !important;
+  margin-left: 10px !important;
+}
+
+.modalButtonWatch {
+  background-color: #ffffff !important;
+  padding: 0.5rem 0.5rem !important;
+  margin: 0.1rem 0.1rem !important;
+  color: rgb(89, 89, 89) !important;
+  border: 1px solid rgb(89, 89, 89) !important;
+  margin-left: 10px !important;
+}
+
+.buttonGroup {
+  color: var(--navy700) !important;
+  border-color: #1959b3;
+}
+.buttonGroup:hover {
+  background-color: var(--navy700) !important;
+  color: rgb(255, 255, 255);
+}
+@media only screen and (min-width: 768px) {
+  .modalFooter {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    color: var(--blue500) !important ;
+    height: 3.5rem !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .positiveButton {
+    margin: 0.5rem !important;
+  }
+
+  .negativeButton {
+    margin: 0.5rem !important;
+  }
+}

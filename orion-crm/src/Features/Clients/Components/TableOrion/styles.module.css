@@ -1,0 +1,16 @@
+.container {
+	margin: 0 !important;
+	width: 100%;
+	
+
+}
+.containerButtom{
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+.buttom{
+	margin: 0.2rem !important;
+	padding: 0.65rem 0.2rem !important;
+	min-width: 4rem !important;
+}

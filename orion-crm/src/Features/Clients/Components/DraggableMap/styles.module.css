@@ -1,0 +1,59 @@
+.iconContainer {
+	position: absolute;
+	top: 43%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 9999999;
+}
+
+.searchContainer {
+	position: relative;
+	top: 2%;
+	left: 1%;
+	z-index: 9999999;
+}
+
+.centerButtonContainer {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem;
+	top: 2%;
+	right: 1%;
+	z-index: 9999999;
+	background-color: white;
+	border: 1px solid rgb(217, 217, 217);
+}
+
+.centerButtonContainer:hover {
+	background-color: rgb(245, 245, 245);
+	cursor: pointer;
+}
+
+.centerButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 9999999;
+}
+
+.centerIcon {
+	color: var(--gray650) !important;
+}
+
+.input {
+	width: 45% !important;
+	border: 0.1rem solid var(--blue600) !important;
+}
+
+.icon {
+	font-size: 2rem !important;
+	color: red !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.input {
+		width: 85% !important;
+	}
+}
